@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" width="640" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Curtain wall elevation and mullion profile detail</title>
+  <desc id="d">Elevation of a four-bay unitised curtain wall with vision and spandrel panels, and an enlarged plan detail of the aluminium mullion with double-glazed units, gaskets and pressure plate.</desc>
+  <rect width="640" height="460" fill="#FFFFFF"/>
+  <rect x="10" y="10" width="620" height="440" fill="none" stroke="#D5DFEC"/>
+
+  <!-- ELEVATION -->
+  <g>
+    <!-- vision glass -->
+    <g fill="#BFE3F5" stroke="#2B66C9" stroke-width="0.8">
+      <rect x="44" y="40" width="80" height="96"/><rect x="124" y="40" width="80" height="96"/><rect x="204" y="40" width="80" height="96"/><rect x="284" y="40" width="80" height="96"/>
+      <rect x="44" y="166" width="80" height="96"/><rect x="124" y="166" width="80" height="96"/><rect x="204" y="166" width="80" height="96"/><rect x="284" y="166" width="80" height="96"/>
+      <rect x="44" y="292" width="80" height="80"/><rect x="124" y="292" width="80" height="80"/><rect x="204" y="292" width="80" height="80"/><rect x="284" y="292" width="80" height="80"/>
+    </g>
+    <!-- spandrels -->
+    <g fill="#5D6F8A" fill-opacity="0.35" stroke="#2B66C9" stroke-width="0.8">
+      <rect x="44" y="136" width="320" height="30"/>
+      <rect x="44" y="262" width="320" height="30"/>
+    </g>
+    <!-- reflections -->
+    <g stroke="#fff" stroke-width="2" stroke-opacity="0.85">
+      <path d="M60 120L96 60M72 124L104 70"/><path d="M220 246L256 186"/><path d="M140 356L170 306"/><path d="M300 120L330 70"/>
+    </g>
+    <!-- frame -->
+    <g stroke="#0C2A5B" stroke-width="3">
+      <path d="M44 40V372M124 40V372M204 40V372M284 40V372M364 40V372"/>
+      <path d="M44 40H364M44 372H364"/>
+    </g>
+    <g stroke="#0C2A5B" stroke-width="1.6">
+      <path d="M44 136H364M44 166H364M44 262H364M44 292H364"/>
+    </g>
+    <!-- slab edges behind -->
+    <g stroke="#1D5FE0" stroke-width="1" stroke-dasharray="8 4">
+      <path d="M34 151H374M34 277H374"/>
+    </g>
+    <!-- stack joint -->
+    <path d="M30 163H40M368 163H378" stroke="#0C2A5B"/>
+    <!-- detail bubble -->
+    <circle cx="204" cy="214" r="18" fill="none" stroke="#1D5FE0" stroke-width="1.4"/>
+    <path d="M222 214H402" stroke="#1D5FE0" stroke-width="1" stroke-dasharray="3 3"/>
+    <circle cx="414" cy="214" r="12" fill="#1D5FE0"/>
+    <text x="414" y="218" text-anchor="middle" font-family="'Source Sans 3', 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff">1</text>
+  </g>
+
+  <!-- DETAIL 1 : MULLION PLAN -->
+  <g>
+    <text x="440" y="66" font-family="'Source Sans 3', 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#0C2A5B">DETAIL 1 · MULLION</text>
+    <text x="440" y="80" font-family="'Source Sans 3', 'Segoe UI', Arial, sans-serif" font-size="10" fill="#5D6F8A">PLAN 1:5</text>
+    <text x="452" y="112" font-family="'Source Sans 3', 'Segoe UI', Arial, sans-serif" font-size="9" fill="#5D6F8A">OUTSIDE</text>
+    <text x="452" y="334" font-family="'Source Sans 3', 'Segoe UI', Arial, sans-serif" font-size="9" fill="#5D6F8A">INSIDE</text>
+    <!-- glass units -->
+    <g fill="#BFE3F5" stroke="#2B66C9" stroke-width="1">
+      <rect x="440" y="150" width="76" height="8"/><rect x="440" y="172" width="76" height="8"/>
+      <rect x="556" y="150" width="62" height="8"/><rect x="556" y="172" width="62" height="8"/>
+    </g>
+    <g fill="#0C2A5B"><rect x="500" y="158" width="14" height="14"/><rect x="558" y="158" width="14" height="14"/></g>
+    <!-- cap & pressure plate -->
+    <rect x="510" y="122" width="52" height="14" rx="5" fill="#5D6F8A" stroke="#0C2A5B"/>
+    <rect x="508" y="136" width="56" height="8" fill="#9FB0C7" stroke="#0C2A5B"/>
+    <rect x="532" y="136" width="8" height="58" fill="#9FB0C7" stroke="#0C2A5B"/>
+    <!-- gaskets -->
+    <g fill="#081C3E"><rect x="512" y="144" width="8" height="6"/><rect x="552" y="144" width="8" height="6"/><rect x="512" y="180" width="8" height="6"/><rect x="552" y="180" width="8" height="6"/></g>
+    <!-- mullion box -->
+    <path fill-rule="evenodd" d="M510 186H562V306H510Z M517 193V299H555V193Z" fill="#9FB0C7" stroke="#0C2A5B"/>
+    <path d="M517 230H555M517 262H555" stroke="#0C2A5B" stroke-width="0.8"/>
+    <!-- dims -->
+    <g stroke="#5D6F8A" stroke-width="0.8" fill="none">
+      <path d="M510 320H562M510 314V326M562 314V326"/>
+      <path d="M596 122V306M590 122H602M590 306H602"/>
+    </g>
+    <g font-family="'Source Sans 3', 'Segoe UI', Arial, sans-serif" font-size="10" fill="#5D6F8A" text-anchor="middle">
+      <text x="536" y="342">65</text>
+      <text x="0" y="0" transform="translate(612 214) rotate(-90)">185</text>
+    </g>
+    <g font-family="'Source Sans 3', 'Segoe UI', Arial, sans-serif" font-size="9.5" fill="#0C2A5B">
+      <path d="M470 154L450 214" stroke="#5D6F8A"/><text x="440" y="226">DGU 6/16/6</text>
+      <path d="M536 306L536 360" stroke="#5D6F8A"/><text x="482" y="374">ALU. MULLION 65×150</text>
+    </g>
+  </g>
+
+  <!-- title block -->
+  <g font-family="'Source Sans 3', 'Segoe UI', Arial, sans-serif">
+    <rect x="396" y="398" width="224" height="42" fill="#fff" stroke="#D5DFEC"/>
+    <line x1="396" y1="416" x2="620" y2="416" stroke="#D5DFEC"/>
+    <text x="406" y="411" font-size="10" font-weight="600" fill="#0C2A5B">BEAVER &amp; WEAVER · FACADE</text>
+    <text x="406" y="432" font-size="9.5" fill="#5D6F8A">F-204  CW-02 ELEVATION  1:50</text>
+  </g>
+  <text x="44" y="396" font-family="'Source Sans 3', 'Segoe UI', Arial, sans-serif" font-size="10" fill="#5D6F8A">CW-02 UNITISED · 4 BAYS @ 1 500</text>
+</svg>

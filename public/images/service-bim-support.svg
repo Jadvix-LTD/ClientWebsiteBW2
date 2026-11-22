@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" width="640" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Parametric Revit family and model audit checklist</title>
+  <desc id="d">A window family in the family editor with reference planes and labelled width, height and sill height parameters, next to a model audit checklist with passed checks.</desc>
+  <rect width="640" height="460" fill="#FFFFFF"/>
+  <rect x="10" y="10" width="620" height="440" fill="none" stroke="#D5DFEC"/>
+
+  <!-- reference planes -->
+  <g stroke="#2B66C9" stroke-width="0.8" stroke-dasharray="10 3 2 3">
+    <path d="M90 30V390M260 30V390M40 110H320M40 300H320M40 372H320"/>
+  </g>
+  <!-- wall host -->
+  <rect x="40" y="60" width="280" height="312" fill="#EDF2F9" stroke="#9FB0C7"/>
+  <!-- window -->
+  <g stroke="#0C2A5B" stroke-width="2" fill="#fff">
+    <rect x="90" y="110" width="170" height="190"/>
+  </g>
+  <g fill="#BFE3F5" stroke="#0C2A5B" stroke-width="1.2">
+    <rect x="100" y="120" width="70" height="170"/>
+    <rect x="180" y="120" width="70" height="170"/>
+  </g>
+  <path d="M100 205L170 120M100 205L170 290" stroke="#5D6F8A" stroke-width="0.8" stroke-dasharray="4 3" fill="none"/>
+  <path d="M84 300H266V308H84Z" fill="#9FB0C7" stroke="#0C2A5B"/>
+
+  <!-- parameter dimensions -->
+  <g stroke="#0C2A5B" stroke-width="0.9" fill="none">
+    <path d="M90 82H260M90 76V88M260 76V88"/>
+    <path d="M290 110V300M284 110H296M284 300H296"/>
+    <path d="M60 300V372M54 300H66M54 372H66"/>
+  </g>
+  <g font-family="'Source Sans 3', 'Segoe UI', Arial, sans-serif" font-size="10" fill="#0C2A5B">
+    <rect x="128" y="66" width="94" height="18" fill="#FFFFFF"/>
+    <text x="175" y="78" text-anchor="middle">Width = 1200</text>
+    <rect x="281" y="154" width="18" height="102" fill="#FFFFFF"/>
+    <text x="0" y="0" transform="translate(294 205) rotate(-90)" text-anchor="middle">Height = 1500</text>
+    <text x="0" y="0" transform="translate(52 336) rotate(-90)" text-anchor="middle">Sill = 900</text>
+  </g>
+  <!-- lock icons -->
+  <g stroke="#1D5FE0" stroke-width="1.2" fill="none">
+    <rect x="168" y="90" width="12" height="9" fill="#FFFFFF"/><path d="M171 90V86a3 3 0 0 1 6 0V90"/>
+  </g>
+  <text x="40" y="410" font-family="'Source Sans 3', 'Segoe UI', Arial, sans-serif" font-size="10" fill="#5D6F8A">WIN_CASEMENT_2PANE.rfa · 14 params · 312 KB</text>
+
+  <!-- audit checklist -->
+  <g font-family="'Source Sans 3', 'Segoe UI', Arial, sans-serif">
+    <rect x="360" y="40" width="250" height="330" fill="#fff" stroke="#0C2A5B"/>
+    <rect x="360" y="40" width="250" height="34" fill="#0C2A5B"/>
+    <text x="374" y="62" font-size="11" font-weight="600" fill="#fff">MODEL AUDIT · R03</text>
+    <text x="596" y="62" font-size="10" fill="#1D5FE0" text-anchor="end">PASS</text>
+    <g font-size="10" fill="#0C2A5B">
+      <text x="398" y="104">Naming convention</text>
+      <text x="398" y="138">Shared coordinates</text>
+      <text x="398" y="172">Worksets / phases</text>
+      <text x="398" y="206">Warnings</text><text x="596" y="206" text-anchor="end" fill="#5D6F8A">47 → 0</text>
+      <text x="398" y="240">Unused families purged</text>
+      <text x="398" y="274">Views on sheets</text>
+      <text x="398" y="308">Parameters to EIR</text>
+      <text x="398" y="342">IFC export check</text>
+    </g>
+    <g stroke="#E3EAF4"><path d="M370 118H600M370 152H600M370 186H600M370 220H600M370 254H600M370 288H600M370 322H600"/></g>
+    <g fill="#12A7D6">
+      <rect x="374" y="93" width="14" height="14" rx="2"/><rect x="374" y="127" width="14" height="14" rx="2"/><rect x="374" y="161" width="14" height="14" rx="2"/>
+      <rect x="374" y="195" width="14" height="14" rx="2"/><rect x="374" y="229" width="14" height="14" rx="2"/><rect x="374" y="263" width="14" height="14" rx="2"/>
+      <rect x="374" y="297" width="14" height="14" rx="2"/>
+    </g>
+    <rect x="374" y="331" width="14" height="14" rx="2" fill="none" stroke="#1D5FE0" stroke-width="1.4"/>
+    <g stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M377 100l3 3 5-6"/><path d="M377 134l3 3 5-6"/><path d="M377 168l3 3 5-6"/><path d="M377 202l3 3 5-6"/>
+      <path d="M377 236l3 3 5-6"/><path d="M377 270l3 3 5-6"/><path d="M377 304l3 3 5-6"/>
+    </g>
+    <text x="596" y="342" font-size="10" fill="#1D5FE0" text-anchor="end">in review</text>
+  </g>
+
+  <!-- title block -->
+  <g font-family="'Source Sans 3', 'Segoe UI', Arial, sans-serif">
+    <rect x="396" y="398" width="224" height="42" fill="#fff" stroke="#D5DFEC"/>
+    <line x1="396" y1="416" x2="620" y2="416" stroke="#D5DFEC"/>
+    <text x="406" y="411" font-size="10" font-weight="600" fill="#0C2A5B">BEAVER &amp; WEAVER · BIM SUPPORT</text>
+    <text x="406" y="432" font-size="9.5" fill="#5D6F8A">QA-003  FAMILY + AUDIT</text>
+  </g>
+</svg>

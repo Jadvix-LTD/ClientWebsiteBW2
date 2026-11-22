@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" width="640" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Steel beam-to-column end plate connection detail</title>
+  <desc id="d">Elevation of a universal beam bolted to a universal column through an extended end plate, with the end plate face view showing the bolt group, gauges and weld annotation.</desc>
+  <defs>
+    <pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="6" stroke="#5D6F8A" stroke-width="0.8"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="460" fill="#FFFFFF"/>
+  <rect x="10" y="10" width="620" height="440" fill="none" stroke="#D5DFEC"/>
+
+  <!-- ELEVATION -->
+  <g stroke="#0C2A5B" fill="none" stroke-width="1.4">
+    <!-- column -->
+    <rect x="120" y="40" width="100" height="340" fill="#EDF2F9"/>
+    <line x1="132" y1="40" x2="132" y2="380"/>
+    <line x1="208" y1="40" x2="208" y2="380"/>
+    <line x1="170" y1="40" x2="170" y2="380" stroke-dasharray="10 4 2 4" stroke="#5D6F8A" stroke-width="0.8"/>
+    <!-- stiffeners -->
+    <rect x="132" y="130" width="76" height="12" fill="url(#hatch)"/>
+    <rect x="132" y="278" width="76" height="12" fill="url(#hatch)"/>
+    <!-- end plate -->
+    <rect x="220" y="112" width="14" height="196" fill="#1D5FE0" fill-opacity="0.18"/>
+    <!-- beam -->
+    <path d="M234 130H404M234 142H404M234 278H404M234 290H404" />
+    <path d="M404 120L412 165L398 210L412 255L404 300" stroke-width="1"/>
+    <rect x="234" y="142" width="170" height="136" fill="#EDF2F9" stroke="none"/>
+    <path d="M234 210H404" stroke-dasharray="10 4 2 4" stroke="#5D6F8A" stroke-width="0.8"/>
+  </g>
+  <!-- bolts -->
+  <g fill="#0C2A5B">
+    <g id="bolt">
+      <rect x="196" y="-4" width="52" height="8" fill="#fff" stroke="#0C2A5B" stroke-width="1"/>
+      <rect x="188" y="-7" width="8" height="14"/>
+      <rect x="240" y="-7" width="10" height="14"/>
+    </g>
+    <use href="#bolt" y="122"/>
+    <use href="#bolt" y="160"/>
+    <use href="#bolt" y="226"/>
+    <use href="#bolt" y="262"/>
+  </g>
+  <!-- weld callout -->
+  <g stroke="#0C2A5B" fill="none" stroke-width="1">
+    <path d="M236 131L276 84H360"/>
+    <path d="M300 84L310 72V84" fill="#0C2A5B"/>
+  </g>
+  <g font-family="'Source Sans 3', 'Segoe UI', Arial, sans-serif" font-size="10" fill="#0C2A5B">
+    <text x="318" y="78">8 FW ALL ROUND</text>
+    <text x="130" y="30" font-weight="600">UC 254×254×73</text>
+    <text x="300" y="320" font-weight="600">UB 406×178×60</text>
+    <text x="300" y="334" fill="#5D6F8A">S355 J2</text>
+    <text x="236" y="400" fill="#5D6F8A">EP 200×15 S275</text>
+    <path d="M227 308L240 388" stroke="#5D6F8A" fill="none"/>
+  </g>
+  <!-- section mark -->
+  <g stroke="#1D5FE0" stroke-width="1.4" fill="none">
+    <path d="M440 100V112M440 308V320"/>
+    <path d="M430 104L440 96L450 104M430 316L440 324L450 316"/>
+  </g>
+  <g font-family="'Source Sans 3', 'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#1D5FE0" text-anchor="middle">
+    <text x="440" y="90">A</text><text x="440" y="340">A</text>
+  </g>
+
+  <!-- VIEW A-A : END PLATE FACE -->
+  <g stroke="#0C2A5B" stroke-width="1.2" fill="none">
+    <rect x="486" y="112" width="100" height="196" fill="#1D5FE0" fill-opacity="0.12"/>
+    <path d="M490 130H582V142H540V278H582V290H490V278H532V142H490Z" stroke-dasharray="4 3" stroke="#5D6F8A"/>
+  </g>
+  <g fill="#fff" stroke="#0C2A5B" stroke-width="1.2">
+    <circle cx="510" cy="122" r="7"/><circle cx="562" cy="122" r="7"/>
+    <circle cx="510" cy="160" r="7"/><circle cx="562" cy="160" r="7"/>
+    <circle cx="510" cy="226" r="7"/><circle cx="562" cy="226" r="7"/>
+    <circle cx="510" cy="262" r="7"/><circle cx="562" cy="262" r="7"/>
+  </g>
+  <g stroke="#5D6F8A" stroke-width="0.6">
+    <path d="M500 122H520M552 122H572M500 160H520M552 160H572M500 226H520M552 226H572M500 262H520M552 262H572"/>
+    <path d="M510 112V272M562 112V272"/>
+  </g>
+  <g stroke="#5D6F8A" stroke-width="0.8" fill="none">
+    <path d="M510 336H562M510 330V342M562 330V342"/>
+    <path d="M606 122V262M600 122H612M600 160H612M600 226H612M600 262H612"/>
+  </g>
+  <g font-family="'Source Sans 3', 'Segoe UI', Arial, sans-serif" font-size="10" fill="#5D6F8A" text-anchor="middle">
+    <text x="536" y="354">100</text>
+    <text x="0" y="0" transform="translate(620 141) rotate(-90)">38</text>
+    <text x="0" y="0" transform="translate(620 193) rotate(-90)">66</text>
+    <text x="0" y="0" transform="translate(620 244) rotate(-90)">36</text>
+    <text x="536" y="100" font-size="11" font-weight="600" fill="#0C2A5B">VIEW A–A</text>
+    <text x="536" y="372">8 No. M20 8.8</text>
+  </g>
+
+  <!-- title block -->
+  <g font-family="'Source Sans 3', 'Segoe UI', Arial, sans-serif">
+    <rect x="396" y="398" width="224" height="42" fill="#fff" stroke="#D5DFEC"/>
+    <line x1="396" y1="416" x2="620" y2="416" stroke="#D5DFEC"/>
+    <text x="406" y="411" font-size="10" font-weight="600" fill="#0C2A5B">BEAVER &amp; WEAVER · STEEL DETAILING</text>
+    <text x="406" y="432" font-size="9.5" fill="#5D6F8A">S-520  CONN. TYPE EP-04  1:10</text>
+  </g>
+</svg>
